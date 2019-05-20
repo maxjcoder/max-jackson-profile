@@ -52,9 +52,16 @@ div.transbox p {
     /* jumbotron background */
 }
 
+#myImage {
+    float: left;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
 .title,
 .subHeading {
-    text-align: center;
+    margin-top: 39px;
+    text-align: left;
 }
 
 @media only screen and (max-width: 992px) {
