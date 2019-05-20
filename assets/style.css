@@ -23,6 +23,27 @@ html {
     min-height: 50%;
 }
 
+div.background {
+    background: url(./images/titleImage.jpg);
+    border: 1.5px solid gray;
+    border-radius: 3px 25px;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
 .title,
 .subHeading {
     text-align: center;
