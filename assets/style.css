@@ -10,6 +10,7 @@ html {
     left: -50%;
     width: 200%;
     height: 200%;
+    /* page background */
 }
 
 #bg img {
@@ -21,6 +22,7 @@ html {
     margin: auto;
     min-width: 50%;
     min-height: 50%;
+    /* page background */
 }
 
 div.background {
@@ -28,6 +30,7 @@ div.background {
     border: 1.5px solid gray;
     border-radius: 3px 25px;
     margin: 5px;
+    /* jumbotron background */
 }
 
 div.transbox {
@@ -35,15 +38,18 @@ div.transbox {
     background-color: #ffffff;
     border: 1px solid grey;
     border-radius: 50px;
-    opacity: 0.6;
+    opacity: 0.8;
     filter: alpha(opacity=60);
+    /* jumbotron background */
     /* For IE8 and earlier */
 }
 
 div.transbox p {
     margin: 5%;
+    font-size: 20px;
     font-weight: bold;
     color: #000000;
+    /* jumbotron background */
 }
 
 .title,
