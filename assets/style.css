@@ -27,6 +27,7 @@ div.background {
     background: url(./images/titleImage.jpg);
     border: 1.5px solid gray;
     border-radius: 3px 25px;
+    margin: 5px;
 }
 
 div.transbox {
