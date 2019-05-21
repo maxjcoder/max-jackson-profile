@@ -57,12 +57,14 @@ div.transbox p {
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 50%;
+    /* profile image round */
 }
 
 .title,
 .subHeading {
     margin-top: 39px;
     text-align: left;
+    /* title and brand statement */
 }
 
 @media only screen and (max-width: 992px) {
