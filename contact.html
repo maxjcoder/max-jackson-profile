@@ -145,13 +145,24 @@
 
                     <div class="card-body">
 
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-secondary btn-md btn-block">Go somewhere</a>
+                        <form method="post" name="gform" action="https://script.google.com/macros/s/AKfycby7NNkqFnCNgbJX8Y8IKLq_u55MjCpQMqE4HDYIyA/exec" style="color: black" ;>
+
+                            Your Name:
+                            <input type="text" name="name" style="margin: 0px; width: 100%;"> Email Address:
+                            <input type="text" name="email" style="margin: 0px; width: 100%;"> Message:
+                            <textarea name="message" style="margin: 0px; width: 100%;"></textarea>
+
+                            <input type="submit" value="Submit" style="color: black" ;>
+
+                            <div style="display:none;" id="thankyou_message">
+                                <h2><em>Thanks</em> for contacting me! I will get back to you soon!</h2>
+                            </div>
+
+                        </form>
+
                     </div>
 
                 </div>
-
             </div>
         </div>
 

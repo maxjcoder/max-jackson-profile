@@ -67,8 +67,14 @@ div.transbox p {
     /* title and brand statement */
 }
 
+#bio {
+    margin-top: 10px;
+    /* pushes text down from the header */
+}
+
 #credit {
     font-size: 10px;
+    /* used an image from a website; credit for that icon */
 }
 
 @media only screen and (max-width: 992px) {
