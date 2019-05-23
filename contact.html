@@ -101,13 +101,21 @@
         <!-- Section Description -->
 
         <div class="row">
+
             <div class="col-sm-8">
                 <div class="card">
+
                     <div class="card-body" id="article">
 
-                        <h3 class="card-title">Article</h3>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h4 class="card-header"><i class="fas fa-satellite-dish"></i> Send Me a Message</h4>
+
+                        <div class="subHeading">
+                            <p>I am eager to connect with other professionals in the field of web development. Feel free to send me a message using the contact form below.</p>
+                            <hr>
+                        </div>
+
                         <a href="https://drive.google.com/file/d/1Md393jybF2l0KBp2UsE6YXGhhfki_05D/view?usp=sharing" class="btn btn-primary">Resume</a>
+
                         <a href="https://maxmjackson.wixsite.com/maxjnau" class="btn btn-secondary" style="float:right;">Higher Ed. Profile</a>
 
                     </div>
@@ -119,10 +127,14 @@
 
             <div class="col-sm-4">
                 <div class="card">
-                    <div class="card-body" id="sidebar" style="margin-left: 60px;">
+                    <div class="card-body" id="sidebar">
+
+                        <h4 id="connectLabel">Connect</h4>
 
                         <a href="https://www.linkedin.com/in/maxjnau/" title="Max Jackson's LinkedIn Profile" target="_blank"><img src="./assets/images/linkedIn.jpg" alt="LinkedIn Logo" class="img-thumbnail" id="li"></a>
+
                         <a href="https://github.com/maxjcoder" title="Max Jackson's GitHub Profile" target="_blank"><img src="./assets/images/gitHub.jpg" alt="Git Hub Logo" class="img-thumbnail" id="gh"></a>
+
                         <a href="https://stackexchange.com/users/14736814/max-jackson" title="Max Jackson's StackOverflow Profile" target="_blank"><img src="./assets/images/stackOverflow.jpg" alt="Stack Overflow Logo" class="img-thumbnail" id="so"></a>
 
                     </div>
@@ -148,9 +160,9 @@
                         <form method="post" name="gform" action="https://script.google.com/macros/s/AKfycby7NNkqFnCNgbJX8Y8IKLq_u55MjCpQMqE4HDYIyA/exec" style="color: black" ;>
 
                             Your Name:
-                            <input type="text" name="name" style="margin: 0px; width: 100%;"> Email Address:
-                            <input type="text" name="email" style="margin: 0px; width: 100%;"> Message:
-                            <textarea name="message" style="margin: 0px; width: 100%;"></textarea>
+                            <input type="text" name="name" style="margin: 0px; width: 100%;" id="formField"> Email Address:
+                            <input type="text" name="email" style="margin: 0px; width: 100%;" id="formField"> Message:
+                            <textarea name="message" style="margin: 0px; width: 100%;" id="formField"></textarea>
 
                             <input type="submit" value="Submit" style="color: black" ;>
 

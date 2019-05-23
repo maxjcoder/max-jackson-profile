@@ -62,9 +62,17 @@ div.transbox p {
 
 .title,
 .subHeading {
-    margin-top: 39px;
+    margin-top: 24px;
     text-align: left;
     /* title and brand statement */
+}
+
+#sidebar {
+    margin-left: 60px;
+}
+
+#connectLabel {
+    margin-left: 45px;
 }
 
 #bio {
@@ -84,6 +92,10 @@ div.transbox p {
     color: black;
     font-size: 28px;
     /* icon is a popover to learn about the coding skills used to build the app */
+}
+
+#formField:hover {
+    border: 2px solid gray;
 }
 
 #credit {
