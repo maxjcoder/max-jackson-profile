@@ -72,6 +72,20 @@ div.transbox p {
     /* pushes text down from the header */
 }
 
+#repo {
+    float: right;
+    color: black;
+    font-size: 28px;
+    /* icon is a link to the Git Hub repo */
+}
+
+#skills {
+    float: right;
+    color: black;
+    font-size: 28px;
+    /* icon is a popover to learn about the coding skills used to build the app */
+}
+
 #credit {
     font-size: 10px;
     /* used an image from a website; credit for that icon */
