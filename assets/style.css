@@ -94,6 +94,30 @@ div.transbox p {
     /* icon is a popover to learn about the coding skills used to build the app */
 }
 
+#pro1 {
+    background: wheat linear-gradient(to bottom, white, Wheat);
+}
+
+#pro1Footer {
+    background-color: wheat;
+}
+
+#pro2 {
+    background: yellow linear-gradient(to bottom, white, yellow);
+}
+
+#pro2Footer {
+    background-color: yellow;
+}
+
+#edb {
+    background: orange linear-gradient(to bottom, white, orange);
+}
+
+#edbFooter {
+    background-color: orange;
+}
+
 #formField:hover {
     border: 2px solid gray;
 }
