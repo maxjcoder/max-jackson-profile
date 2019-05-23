@@ -64,6 +64,7 @@ div.transbox p {
 .subHeading {
     margin-top: 24px;
     text-align: left;
+    line-height: 1.6;
     /* title and brand statement */
 }
 
@@ -95,6 +96,7 @@ div.transbox p {
 }
 
 #pro1 {
+    opacity: 0.9;
     background: wheat linear-gradient(to bottom, white, Wheat);
 }
 
@@ -103,6 +105,7 @@ div.transbox p {
 }
 
 #pro2 {
+    opacity: 0.9;
     background: yellow linear-gradient(to bottom, white, yellow);
 }
 
@@ -111,11 +114,30 @@ div.transbox p {
 }
 
 #edb {
+    opacity: 0.9;
     background: orange linear-gradient(to bottom, white, orange);
 }
 
 #edbFooter {
     background-color: orange;
+}
+
+#frfdr {
+    opacity: 0.9;
+    background: lightblue linear-gradient(to bottom, white, lightblue);
+}
+
+#frfdrFooter {
+    background-color: lightblue;
+}
+
+#nyt {
+    opacity: 0.9;
+    background: lightgreen linear-gradient(to bottom, white, lightgreen);
+}
+
+#nytFooter {
+    background-color: lightgreen;
 }
 
 #formField:hover {
