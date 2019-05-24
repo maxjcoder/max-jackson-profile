@@ -22,7 +22,7 @@ html {
     margin: auto;
     min-width: 50%;
     min-height: 50%;
-    /* page background */
+    /* page background image */
 }
 
 div.background {
@@ -95,6 +95,9 @@ div.transbox p {
     /* icon is a popover to learn about the coding skills used to build the app */
 }
 
+
+/* begin styling for cards on profile page */
+
 #pro1 {
     opacity: 0.9;
     background: wheat linear-gradient(to bottom, white, Wheat);
@@ -140,14 +143,57 @@ div.transbox p {
     background-color: lightgreen;
 }
 
+#gif {
+    opacity: 0.9;
+    background: lightseagreen linear-gradient(to bottom, white, lightseagreen);
+}
+
+#gifFooter {
+    background-color: lightseagreen;
+}
+
+#crystal {
+    opacity: 0.9;
+    background: wheat linear-gradient(to bottom, white, wheat);
+}
+
+#crstalFooter {
+    background-color: wheat;
+}
+
+#psychic {
+    opacity: 0.9;
+    background: yellow linear-gradient(to bottom, white, yellow);
+}
+
+#psychicFooter {
+    background-color: yellow;
+}
+
+#smt {
+    opacity: 0.9;
+    background: rgb(251, 59, 33) linear-gradient(to bottom, white, rgb(251, 59, 33));
+}
+
+#smtFooter {
+    background-color: rgb(251, 59, 33);
+}
+
+
+/* end styling for cards on profile page */
+
 #formField:hover {
     border: 2px solid gray;
+    /* helps reveal the contact form fields */
 }
 
 #credit {
     font-size: 10px;
     /* used an image from a website; credit for that icon */
 }
+
+
+/* media queries */
 
 @media only screen and (max-width: 992px) {
     html,
