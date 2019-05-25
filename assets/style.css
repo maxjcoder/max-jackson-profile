@@ -56,36 +56,53 @@ div.transbox p {
     float: left;
     margin-left: 5px;
     margin-right: 5px;
+    border: 1px solid gray;
     border-radius: 50%;
+    box-shadow: 0px 15px 15px 0px;
     /* profile image round */
 }
 
-.title,
+.heading {
+    text-align: left;
+    font-size: 24px;
+    /* heading and brand statement */
+}
+
 .subHeading {
     margin-top: 24px;
     text-align: left;
+    font-size: 20px;
     line-height: 1.6;
-    /* title and brand statement */
+    /* heading and brand statement */
+}
+
+.article {
+    margin-top: 24px;
+    text-align: left;
+    line-height: 1.6;
+    /* about, work, contact statement (context)*/
 }
 
 #sidebar {
     margin-left: 60px;
+    /* social media links */
 }
 
 #connectLabel {
     margin-left: 45px;
+    /* social media links */
 }
 
 #bio {
     margin-top: 10px;
-    /* pushes text down from the header */
+    /* pushes text down from the card-header */
 }
 
 #repo {
     float: right;
     color: black;
     font-size: 28px;
-    /* icon is a link to the Git Hub repo */
+    /* button is a link to the Git Hub repo */
 }
 
 #skills {
