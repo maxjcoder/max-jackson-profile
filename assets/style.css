@@ -52,6 +52,10 @@ div.transbox p {
     /* jumbotron background */
 }
 
+#jtBackground {
+    background: lightblue linear-gradient(to bottom, lightblue, wheat);
+}
+
 #myImage {
     float: left;
     margin-left: 5px;
@@ -74,7 +78,9 @@ div.transbox p {
 }
 
 #connectLabel {
-    margin-left: 45px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
     /* social media links */
 }
 
@@ -191,6 +197,15 @@ div.transbox p {
 
 #psychicFooter {
     background-color: yellow;
+}
+
+#ts {
+    opacity: 0.9;
+    background-image: url(./images/tiledBackground.jpg);
+}
+
+#tsFooter {
+    background-color: lightgoldenrodyellow;
 }
 
 #smt {
