@@ -208,6 +208,15 @@ div.transbox p {
     background-color: lightgoldenrodyellow;
 }
 
+#rps {
+    opacity: 0.9;
+    background: orange linear-gradient(to bottom, white, orange);
+}
+
+#rpsFooter {
+    background-color: orange;
+}
+
 #smt {
     opacity: 0.9;
     background: rgb(251, 59, 33) linear-gradient(to bottom, white, rgb(251, 59, 33));
