@@ -2,6 +2,7 @@ body,
 html {
     height: 100%;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 #bg {
@@ -53,7 +54,9 @@ div.transbox p {
 }
 
 #jtBackground {
+    opacity: 0.95;
     background: lightblue linear-gradient(to bottom, lightblue, wheat);
+    /* jumbotron background */
 }
 
 #myImage {
@@ -70,6 +73,7 @@ div.transbox p {
 #readExploreSend,
 #sidebarCard {
     background: wheat linear-gradient(to bottom, white, Wheat);
+    /* select card backgrounds */
 }
 
 #sidebar {
@@ -86,7 +90,7 @@ div.transbox p {
 
 .heading {
     text-align: left;
-    font-size: 24px;
+    font-size: 22px;
     /* heading and brand statement */
 }
 
@@ -172,6 +176,15 @@ div.transbox p {
     background-color: lightgreen;
 }
 
+#smt {
+    opacity: 0.9;
+    background: rgb(251, 59, 33) linear-gradient(to bottom, white, rgb(251, 59, 33));
+}
+
+#smtFooter {
+    background-color: rgb(251, 59, 33);
+}
+
 #gif {
     opacity: 0.9;
     background: lightseagreen linear-gradient(to bottom, white, lightseagreen);
@@ -217,30 +230,28 @@ div.transbox p {
     background-color: orange;
 }
 
-#smt {
-    opacity: 0.9;
-    background: rgb(251, 59, 33) linear-gradient(to bottom, white, rgb(251, 59, 33));
-}
 
-#smtFooter {
-    background-color: rgb(251, 59, 33);
-}
+/* end styling for cards on profile page */
 
 #contactLabel {
     opacity: 0.9;
     background: gold linear-gradient(to right, white, gold);
+    /* gradient background for contact form label */
 }
 
 #contactForm {
     background-image: url(./images/contactForm.png);
+    /*  background image for contact form label */
 }
-
-
-/* end styling for cards on profile page */
 
 #formField:hover {
     border: 2px solid gray;
     /* helps reveal the contact form fields */
+}
+
+#footer {
+    opacity: 0.9;
+    background: lightblue linear-gradient(to bottom, white, lightblue);
 }
 
 #credit {

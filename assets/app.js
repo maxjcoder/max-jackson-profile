@@ -8,11 +8,15 @@ $(function() {
     $('[data-toggle="popover"]').popover()
 });
 
+//===================================
+// this code does not work, below is what I would like it to do:
+//===================================
+
 // Javascript for display message for email form, ideally this would display after the email has been sent, in place of the JSON object that appears on the following page. 
 
-//0. add Ajax cdn
+//0. add Ajax & Jquery cdn
 
-//1. send message (#send_Email)
+//1. send message (.send_Email)
 
 //2. new page (#feedback)
 
@@ -22,7 +26,7 @@ $(function() {
 
 //5. form data has been cleared out. 
 
-$('send_Email').submit(function(e) {
+$('.send_Email').submit(function(e) {
     e.preventDefault();
     $.post('send_Email', function(data) {
         var name = $('#name').val();
