@@ -77,4 +77,4 @@ The files and directories utilize the following structure:
 * Ajax
 * jQuery
 -----------------------------------------
-##### My name is Max Jackson, and [I am a web developer in the making](https://maxjcoder.github.io/Bootstrap-Portfolio/index.html). (c) 2019
+##### My name is Max Jackson, and [I am a web developer in the making](https://maxjcoder.github.io/max-jackson-profile/). (c) 2019
