@@ -1,6 +1,10 @@
 # My Profile
 This is my portfolio of work from Jan., 2019 to July, 2019
 
+## Project URL:
+
+https://maxjcoder.github.io/max-jackson-profile/
+
 ## Code Overview 
 
 ### This website consists of three pages:
