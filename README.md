@@ -37,11 +37,11 @@ The files and directories utilize the following structure:
 
 ### 1. Jumbotron with slogan
 
-![](Images/ex1-jt.jpg "jpg")
+![](images/ex1-jt.jpg "jpg")
 
 ### 2. Navigation Bar with Brand Statement
 
-![](Images/ex2-nav-brand.jpg "jpg")
+![](images/ex2-nav-brand.jpg "jpg")
 
 ### 3. Biography with a link to my resume and my external higher education profile
 
@@ -49,7 +49,7 @@ The files and directories utilize the following structure:
 
 ### 4. Series of Bootstrap Card Decks showcasing projects and assigments: contains a Bootstrap Popover, link to app and Git Hub Repo and a thumbnail image
 
-![](Images/ex4-card-deck.jpg "jpg")
+![](Images/ex4-card-deck"jpg")
 
 ### 5. Contact Form
 
