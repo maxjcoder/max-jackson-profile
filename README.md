@@ -3,12 +3,12 @@ This is my portfolio of work from Jan., 2019 to July, 2019
 
 ## Code Overview 
 
-###This website consists of three pages:
+### This website consists of three pages:
 * index.html (About Me and Bio)
 * portfolio.html (Portfolio of Work: Bootstrap Card Decks)
 * contact.html (Functional contact form that uses Javascript, Jquery, and Ajax to send messages to my email account)
 
-###Each page follows a consistent format:
+### Each page follows a consistent format:
 * Jumbotron Heading with my profile's slogan
 * Navigation Bar
 * Brand Statement
