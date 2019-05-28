@@ -37,7 +37,7 @@ The files and directories utilize the following structure:
 
 ### 1. Jumbotron with slogan
 
-![](images/ex1-jt.jpg "jpg")
+![ex1-jt](https://user-images.githubusercontent.com/32627237/58461966-ba1f7280-80e5-11e9-93fa-5794231ee2e3.png)
 
 ### 2. Navigation Bar with Brand Statement
 
