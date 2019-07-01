@@ -233,6 +233,16 @@ div.transbox p {
 }
 
 
+#rpg {
+    opacity: 0.9;
+    background: dodgerblue linear-gradient(to bottom, white, dodgerblue);
+}
+
+#rpgFooter {
+    background-color: dodgerblue;
+}
+
+
 /* end styling for cards on profile page */
 
 #contactLabel {
