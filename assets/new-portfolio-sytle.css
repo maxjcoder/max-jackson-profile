@@ -1,0 +1,9 @@
+.heading-style, .footer-style {
+position: relative;    
+background-color: firebrick;
+}
+
+.footer-style {
+    position: relative;    
+    background-color: wheat;
+    }
