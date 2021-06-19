@@ -271,6 +271,9 @@ div.transbox p {
     /* used an image from a website; credit for that icon */
 }
 
+.lettering {
+    letter-spacing: 1px;
+}
 
 /* media queries */
 
